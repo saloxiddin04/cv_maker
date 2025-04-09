@@ -39,33 +39,50 @@ namespace cv_maker
                 using (OleDbConnection connection = new OleDbConnection(url_DB))
                 {
                     connection.Open();
-                    string query = "SELECT `password` FROM `users` WHERE `email` = ?;";
-                    
+                    string query = "SELECT `password`, `role` FROM `users` WHERE `email` = ?;";
+
                     using (OleDbCommand cmd = new OleDbCommand(query, connection))
                     {
                         cmd.Parameters.Add("?", OleDbType.VarChar).Value = email;
-                        
-                        object result = cmd.ExecuteScalar();
-                        if (result != null)
-                        {
-                            string hashedPasswordFromDB = result.ToString();
-                            string hashedInputPassword = Helpers.HashPassword(password);
 
-                            if (hashedInputPassword == hashedPasswordFromDB)
+                        using (OleDbDataReader reader = cmd.ExecuteReader())
+                        {
+                            if (reader.Read()) // Check if there is a result
                             {
-                                MessageBox.Show("Muvaffaqiyatli tizimga kirdingiz!");
-                                this.Hide();
-                                Form1 mainForm = new Form1();
-                                mainForm.Show();
+                                string hashedPasswordFromDB = reader["password"].ToString();
+                                string roleFromDB = reader["role"].ToString(); // Get the role
+
+                                string hashedInputPassword = Helpers.HashPassword(password);
+
+                                if (hashedInputPassword == hashedPasswordFromDB)
+                                {
+                                    // Based on the role, decide the interface to show
+                                    if (roleFromDB == "admin")
+                                    {
+                                        // Show admin interface (for example)
+                                        MessageBox.Show("Admin tizimiga kirdingiz!");
+                                        // Example: ShowAdminSidebar();
+                                    }
+                                    else
+                                    {
+                                        // Show client interface
+                                        MessageBox.Show("Client tizimiga kirdingiz!");
+                                        // Example: ShowClientSidebar();
+                                    }
+
+                                    this.Hide();
+                                    Form1 mainForm = new Form1();
+                                    mainForm.Show();
+                                }
+                                else
+                                {
+                                    lblMessage.Text = "Email yoki parol noto‘g‘ri!";
+                                }
                             }
                             else
                             {
-                                lblMessage.Text = "Email yoki parol noto‘g‘ri!";
+                                lblMessage.Text = "Bunday foydalanuvchi topilmadi!";
                             }
-                        }
-                        else
-                        {
-                            lblMessage.Text = "Bunday foydalanuvchi topilmadi!";
                         }
                     }
                 }
@@ -74,6 +91,7 @@ namespace cv_maker
             {
                 MessageBox.Show("Xatolik: " + ex.Message);
             }
+
         }
 
         private string HashPassword(string password)

@@ -21,7 +21,7 @@ namespace cv_maker
         }
 
         //string connectionString = "Provider=Microsoft.Jet.OLEDB.4.0;Data Source=cv_maker1.mdb";
-        string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=\"C:\\Users\\user\\OneDrive\\Рабочий стол\\cv_maker\\cv_maker\\cv_maker\\bin\\Debug\\cv_maker1.mdb\"";
+        string connectionString = "Provider=Microsoft.ACE.OLEDB.12.0;Data Source=cv_maker1.mdb";
 
         private void btnRegister_Click(object sender, EventArgs e)
         {
@@ -73,12 +73,13 @@ namespace cv_maker
                     }
 
                     // Yangi foydalanuvchini qo'shish
-                    string insertQuery = "INSERT INTO users(`username`, `email`, `password`) VALUES(username, email, password);";
+                    string insertQuery = "INSERT INTO users(`username`, `email`, `password`, `role`) VALUES(username, email, password, role);";
                     using (OleDbCommand cmd = new OleDbCommand(insertQuery, connection))
                     {
                         cmd.Parameters.Add("username", OleDbType.VarChar).Value = username;
                         cmd.Parameters.Add("email", OleDbType.VarChar).Value = email;
                         cmd.Parameters.Add("password", OleDbType.VarChar).Value = hashedPassword;
+                        cmd.Parameters.Add("role", OleDbType.VarChar).Value = "client";
                         cmd.ExecuteNonQuery();
                     }
 
@@ -109,6 +110,11 @@ namespace cv_maker
         }
 
         private void txtUserName_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void RegisterForm_Load(object sender, EventArgs e)
         {
 
         }
