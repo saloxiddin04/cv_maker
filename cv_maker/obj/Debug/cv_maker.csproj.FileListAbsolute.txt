@@ -1,0 +1,23 @@
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\bin\Debug\cv_maker.exe.config
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\bin\Debug\cv_maker.exe
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\bin\Debug\cv_maker.pdb
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\obj\Debug\cv_maker.csprojResolveAssemblyReference.cache
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\obj\Debug\cv_maker.Form1.resources
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\obj\Debug\cv_maker.Properties.Resources.resources
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\obj\Debug\cv_maker.csproj.GenerateResource.Cache
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\obj\Debug\cv_maker.exe
+D:\isee_01u_Saloxiddin\cv_maker\cv_maker\obj\Debug\cv_maker.pdb
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\bin\Debug\cv_maker.exe.config
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.exe
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.pdb
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\bin\Debug\cv_maker.exe
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\bin\Debug\cv_maker.pdb
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.csprojResolveAssemblyReference.cache
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.Form1.resources
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.Properties.Resources.resources
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.csproj.GenerateResource.Cache
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.RegisterForm.resources
+C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.Login.resources
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\bin\Debug\cv_maker.exe.config
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.exe
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.pdb
