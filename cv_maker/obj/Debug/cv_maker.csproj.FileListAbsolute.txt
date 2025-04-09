@@ -18,3 +18,13 @@ C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\De
 C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.csproj.GenerateResource.Cache
 C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.RegisterForm.resources
 C:\Users\user\OneDrive\Рабочий стол\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.Login.resources
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\bin\Debug\cv_maker.exe.config
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\bin\Debug\cv_maker.exe
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\bin\Debug\cv_maker.pdb
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.Form1.resources
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.Login.resources
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.Properties.Resources.resources
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.RegisterForm.resources
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.csproj.GenerateResource.Cache
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.exe
+C:\Users\User\Desktop\cv_maker\cv_maker\cv_maker\obj\Debug\cv_maker.pdb
